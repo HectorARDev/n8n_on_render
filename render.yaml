@@ -6,3 +6,4 @@ services:
     region: oregon
     branch: main
     healthCheckPath: /
+    startCommand: "tini -- n8n"
