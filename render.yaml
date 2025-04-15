@@ -6,4 +6,4 @@ services:
     region: oregon
     branch: main
     healthCheckPath: /
-    dockerCommand: "docker-entrypoint.sh start"
+    dockerCommand: "start"
